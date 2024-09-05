@@ -75,9 +75,11 @@ Flat:
 Much improved! I still need to find more users to test this version with.
 
 
-Overall, I was able to practice iteration and prototyping through this exercise. I really enjoyed it. I think something I could improve on is prototyping a little more rapidly and giving myself a timebox (I could iterate on this design forever). 
+Overall, I was able to practice iteration and prototyping through this exercise. I really enjoyed it. I think something I could improve on is prototyping a little more rapidly and giving myself a timebox (I could iterate on this design forever).
 
-I also got started with some Rhino tutorials, but I have a lot more to go through before I start to feel comfortable. My goal is to 3d print something simple on Friday, September 6th.
+I also got started with some Rhino tutorials, but I have a lot more to go through before I start to feel comfortable (I probably could have redirected some of the laser cutting time to learning Rhino). 
+
+One of my goals before the weekend s to 3d print something simple!
 
 
 
