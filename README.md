@@ -72,8 +72,11 @@ Flat:
 
 <img width="300" alt="" src="assets/September_5/prototype_stages_flat.jpeg">
 
-Much improved! I still need to find more users to test this version with.
+Much improved! 
 
+I still need to find more users to test this version with. 
+
+For future versions, I want to try 3d-printing a similar design with a material that grips the phone better.
 
 Overall, I was able to practice iteration and prototyping through this exercise. I really enjoyed it. I think something I could improve on is prototyping a little more rapidly and giving myself a timebox (I could iterate on this design forever).
 
