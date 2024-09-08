@@ -8,7 +8,13 @@ Hi! I'm an MDes student at Berkeley, learning how to make cool things and keepin
 
 ---
 
-# Week 1: September 5, 2024 #
+# Week 2: September 6-12, 2024 #
+
+Attempting to break down the example cell phone stand Rhino/Grasshopper files into a more digestible format. The FigJam flowchart shows all of the elements that go into making the cell phone stand. The yellow triangles represent adjustable parameters (important!)
+
+<img alt="" src="assets/Week_2/Cell phone stand - with context.jpg">
+
+# Week 1: August 30 - September 5, 2024 #
 
 This week, I focused on getting into the rhythm of school and TDF!
 
