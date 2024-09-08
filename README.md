@@ -10,9 +10,32 @@ Hi! I'm an MDes student at Berkeley, learning how to make cool things and keepin
 
 # Week 2: September 6-12, 2024 #
 
+Part 1: Playing around with Rhino/Grasshopper
+
 Attempting to break down the example cell phone stand Rhino/Grasshopper files into a more digestible format. The FigJam flowchart shows all of the elements that go into making the cell phone stand. The yellow triangles represent adjustable parameters (important!)
 
 <img alt="" src="assets/Week_2/Cell phone stand - with context.jpg">
+
+On a quest to gain more understanding around what was happening in the example file, I began playing around with the previews and parameters. Initially, I didn't understand how two spheres + a box were used to construct the phone stand. When I turned on the previews for each shape, I saw how the intersections of the shapes led to the shape of the stand. 
+
+<img alt="" src="assets/Week_2/two spheres preview.png">
+
+I also didn't understand what the purpose of the cylinder void was. But when I changed the cylinder radius to 0 and baked the geometry, I saw why it was important in reducing the print volume.
+
+<img alt="" src="assets/Week_2/zero cylinder radius baked.png">
+
+I wanted to see a full view of the stand along with the relevant elements - the table, the student, and the phone - so I turned on the booleans for all of them.
+
+<img alt="" src="assets/Week_2/Setup with context.png">
+
+I tried adjusting the radii of the spheres to see the minimum required sizes to still create a feasible phone stand. Something that I was curious about was why we needed two spheres to create the phone stand - it seemed like one would suffice. To test my hypothesis, I set the radius of the top sphere to 0. The software told me that the assembly was still good. 
+
+<img alt="" src="assets/Week_2/zero radius sphere.png">
+
+I tried baking this configuration and produced a much smaller stand which seemed compatible with the phone centroid and angle, and would print quicker due to the reduced volume. However, we're not accounting for the weight of the phone in the assembly check, so maybe the smaller stand wouldn't work in this regard. We'd only be able to tell by printing!
+
+<img alt="" src="assets/Week_2/baked zero radius sphere.png">
+
 
 # Week 1: August 30 - September 5, 2024 #
 
