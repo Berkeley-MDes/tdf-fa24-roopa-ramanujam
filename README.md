@@ -36,6 +36,24 @@ I tried baking this configuration and produced a much smaller stand which seemed
 
 <img alt="" src="assets/Week_2/baked zero radius sphere.png">
 
+Lastly, I tried a few experiments in replacing the nested spheres with different shapes to try creating different phone stand configurations.
+
+I wanted to start with singular simple shapes - a box and a cylinder. The asssembly checks failed for both of these because the phone wasn't sitting properly in the stand. I think this was due to the support for both sides of the phone being the same height.
+
+Box:
+
+<img alt="" src="assets/Week_2/box fail.png">
+
+Cylinder:
+
+<img alt="" src="assets/Week_2/cylinder fail.png">
+
+I tried out a nested box configuration next, very similar to the nested sphere configuration. This passed the assembly checks.
+
+Nested boxes:
+
+<img alt="" src="assets/Week_2/nested boxes success.png">
+
 
 # Week 1: August 30 - September 5, 2024 #
 
