@@ -18,23 +18,23 @@ Attempting to break down the example cell phone stand Rhino/Grasshopper files in
 
 On a quest to gain more understanding around what was happening in the example file, I began playing around with the previews and parameters. Initially, I didn't understand how two spheres + a box were used to construct the phone stand. When I turned on the previews for each shape, I saw how the intersections of the shapes led to the shape of the stand. 
 
-<img alt="" src="assets/Week_2/two spheres preview.png">
+<img width="500" alt="" src="assets/Week_2/two spheres preview.png">
 
 I also didn't understand what the purpose of the cylinder void was. But when I changed the cylinder radius to 0 and baked the geometry, I saw why it was important in reducing the print volume.
 
-<img alt="" src="assets/Week_2/zero cylinder radius baked.png">
+<img width="500" alt="" src="assets/Week_2/zero cylinder radius baked.png">
 
 I wanted to see a full view of the stand along with the relevant elements - the table, the student, and the phone - so I turned on the booleans for all of them.
 
-<img alt="" src="assets/Week_2/Setup with context.png">
+<img width="500" alt="" src="assets/Week_2/Setup with context.png">
 
 I tried adjusting the radii of the spheres to see the minimum required sizes to still create a feasible phone stand. Something that I was curious about was why we needed two spheres to create the phone stand - it seemed like one would suffice. To test my hypothesis, I set the radius of the top sphere to 0. The software told me that the assembly was still good. 
 
-<img alt="" src="assets/Week_2/zero radius sphere.png">
+<img width="500" alt="" src="assets/Week_2/zero radius sphere.png">
 
 I tried baking this configuration and produced a much smaller stand which seemed compatible with the phone centroid and angle, and would print quicker due to the reduced volume. However, we're not accounting for the weight of the phone in the assembly check, so maybe the smaller stand wouldn't work in this regard. We'd only be able to tell by printing!
 
-<img alt="" src="assets/Week_2/baked zero radius sphere.png">
+<img width="500" alt="" src="assets/Week_2/baked zero radius sphere.png">
 
 Lastly, I tried a few experiments in replacing the nested spheres with different shapes to try creating different phone stand configurations.
 
@@ -42,17 +42,50 @@ I wanted to start with singular simple shapes - a box and a cylinder. The asssem
 
 Box:
 
-<img alt="" src="assets/Week_2/box fail.png">
+<img width="500" alt="" src="assets/Week_2/box fail.png">
 
 Cylinder:
 
-<img alt="" src="assets/Week_2/cylinder fail.png">
+<img width="500" alt="" src="assets/Week_2/cylinder fail.png">
 
 I tried out a nested box configuration next, very similar to the nested sphere configuration. This passed the assembly checks.
 
 Nested boxes:
 
-<img alt="" src="assets/Week_2/nested boxes success.png">
+<img width="500" alt="" src="assets/Week_2/nested boxes success.png">
+
+Part 2: More experimentation with Rhino/Grasshopper
+
+First, I attempted another version of a process diagram for the Grasshopper file (phone stand with context). I was inspired by one of the lecture diagrams that had grouped the process into a few categories that were easy to understand. I tried to emulate this with my new process diagram:
+
+Lecture slide:
+<img alt="" src="assets/Week_2/Lecture slide diagram.png">
+
+My revised diagram:
+<img alt="" src="assets/Week_2/Cell phone stand process diagram - revised.jpg">
+
+I think this grouping makes more sense than my previous attempt. 
+
+
+I experimented with more parameters in the given Grasshopper file. I wanted to try altering more around the context of the stand, rather than the actual stand. In real life, we'd need to consider different phone sizes to ensure the stand will work for a variety of users. I tried to model the phone on different iPhone sizes, from the 15 pro max (largest, left) to the SE (smallest, right). The change in iPhone size didn't seem to have an effect on the assembly of the stand.
+
+<img alt="" width="500" src="assets/Week_2/iphone 15 pro max.png"> <img alt="" width="500" src="assets/Week_2/iphone se.png">
+
+I also adjusted the z-positions of the nested spheres to observe the change in geometry and how it would affect the assembly. Sphere 1's z-position seemed to affect the assembly status more than Sphere 2.
+
+<img alt="" width="500" src="assets/Week_2/spheres z position.png">
+
+Lastly, I wanted to correct my failed attempt to use a cylinder in the phone stand geometry. I learned from Monday's lecture that my earlier cylinder failed because it was not capped. Armed with this knowledge, I was able to successfully create + bake a nested cylinder and box structure for the phone stand.
+
+<img alt="" width="500" src="assets/Week_2/nested cube and cylinder - preview + baked.png">
+
+
+All of the forms I tried baking (left to right: my new geometry, nested spheres with altered z-position, original stand)
+<img alt="" width="500" src="assets/Week_2/all baked forms.png">
+
+
+
+This may sound silly, but one of my biggest learnings from this week was that I need to remember that we are working in 3-d geometry. I need to ensure that all the shapes are closed, that they are on reasonable planes, and they are actually extruded.
 
 
 # Week 1: August 30 - September 5, 2024 #
