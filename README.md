@@ -3,12 +3,15 @@
 
 Hi! I'm an MDes student at Berkeley, learning how to make cool things and keeping track of my progress here!
 
-[Week 1](README.md#week-1-example-report-1)
+[Week 3](README.md#week-3)
+[Week 2](README.md#week-2)
+[Week 1](README.md#week-1)
+
 
 
 ---
 
-# Week 3: September 13-19, 2024 #
+# Week 3#
 
 Panic!! I spent a lot of time trying to figure out what I wanted to make for my assignment. I initially thought about a car phone stand for my mom since she needs one. Then I thought about making a phone stand in a fun shape. Finally, I literally looked around my room and realized that what I really needed was a laptop stand. Watch my video to get a complete idea of the process, but I learned a lot about how computational design could enable me to iterate on designs quickly and check their feasibility.
 
@@ -16,7 +19,7 @@ https://www.youtube.com/watch?v=7i8T8viewTo
 
 
 
-# Week 2: September 6-12, 2024 #
+# Week 2 #
 
 Part 1: Playing around with Rhino/Grasshopper
 
@@ -96,7 +99,7 @@ All of the forms I tried baking (left to right: my new geometry, nested spheres 
 This may sound silly, but one of my biggest learnings from this week was that I need to remember that we are working in 3-d geometry. I need to ensure that all the shapes are closed, that they are on reasonable planes, and they are actually extruded.
 
 
-# Week 1: August 30 - September 5, 2024 #
+# Week 1 #
 
 This week, I focused on getting into the rhythm of school and TDF!
 
