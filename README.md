@@ -45,8 +45,6 @@ Proposed revision (or something similar to this):
 
 Part 1: Playing around with Rhino/Grasshopper
 
-Reflections:
-
 Attempting to break down the example cell phone stand Rhino/Grasshopper files into a more digestible format. The FigJam flowchart shows all of the elements that go into making the cell phone stand. The yellow triangles represent adjustable parameters (important!)
 
 My diagrammatic understanding of the provided file:
@@ -136,6 +134,8 @@ Successful geometry replacement:
 All of the forms I tried baking (left to right: my new geometry, nested spheres with altered z-position, original stand):
 
 <img alt="" width="500" src="assets/Week_2/all baked forms.png">
+
+Reflections:
 
 This may sound silly, but one of my biggest learnings from this week was that I need to remember that we are working in 3D geometry. I need to ensure that all the shapes are closed, that they are on reasonable planes, and they are actually extruded.
 
