@@ -3,6 +3,8 @@
 
 Hi! I'm an MDes student at Berkeley, learning how to make cool things and keeping track of my progress here!
 
+[Week 4](README.md#week-4)
+
 [Week 3](README.md#week-3)
 
 [Week 2](README.md#week-2)
@@ -12,6 +14,26 @@ Hi! I'm an MDes student at Berkeley, learning how to make cool things and keepin
 
 
 ---
+
+# Week 4 #
+
+Reflections:
+
+Wrapping up Assignment 1 concluded with turning in my pdf report on Monday. I also ended up printing out a couple of more iterations of my laptop stand design, based on my peer feedback.  
+
+For this week's assignment/intro to Assignment 2, I spent time thinking about what are the steps involved in me watching "Emily in Paris" (latest season!) on TV. They're depicted in the below diagram:
+
+<img alt="" src="assets/Week_4/Data flow diagram of netflix on smart tv.jpg">
+
+Description:
+
+The diagram shows the steps that are involved (both in terms of user interaction and data flow) in watching "Emily in Paris" on a smart TV. The purple circles depict the feedback that the user (me) receives after interacting with the system components (green circles). The labeled arrows represent actions performed by the user interacting with the system (purple) or by the system component in interacting with another system component (green). The user interaction in this example is fairly simple, but how the system components interact with each other is pretty complex. It involves hardware - hardware interactions, as well as software - hardware interactions and vice versa. 
+
+Speculations:
+
+I don't know much about hardware -> software connections. I know the basics of software interactions such as HTTP requests and data flow, but I don't know what happens in the preceding/following steps when data interacts with hardware. I think it was difficult to create a diagram that depicts both feedback and data flow without making it too confusing. I may revise this diagram to include more specific hardware interactions after I learn a little bit more about them.
+
+I'm excited to work on a hybrid hardware/software system since I've worked extensively with software but barely any hardware. I think it will be interesting to explore the limits of systems where multiple Photons can talk to each other.
 
 # Week 3 #
 
