@@ -3,6 +3,8 @@
 
 Hi! I'm an MDes student at Berkeley, learning how to make cool things and keeping track of my progress here!
 
+[Week 5](README.md#week-5)
+
 [Week 4](README.md#week-4)
 
 [Week 3](README.md#week-3)
@@ -14,6 +16,38 @@ Hi! I'm an MDes student at Berkeley, learning how to make cool things and keepin
 
 
 ---
+
+# Week 5 #
+
+9/29:
+
+I experimented with the provided files for interacting with the Photon 2. I followed the provided diagram to connect two LEDs and a button to the Photon.
+
+<img width="485" alt="image" src="https://github.com/user-attachments/assets/77413f89-3ff5-4500-a716-0b2145c19558">
+
+Though the diagram has only one LED, I was able to add another by pattern matching it how the first one was constructed.
+
+Reflections:
+
+I tried changing a few variables in the provided files, mainly the timing for the LED blinking and some of the log statements. 
+
+https://github.com/user-attachments/assets/1c6235a0-b5f7-4c6b-99c6-cdfc157e3c7e
+Description: Provided periodicity timing of 3 seconds
+
+https://github.com/user-attachments/assets/ddfffd97-8bda-4f1d-87f2-9a397ce49491
+Description: Changing the periodicity timing to 300ms to blink more rapidly
+
+https://github.com/user-attachments/assets/deb610e1-e13c-4baf-a8a1-f878948cd53d
+
+Description: changing the print statements to say "Hi roopa" when publishing to the cloud.
+
+I don't have much knowledge on circuits, so it was hard for me to think about adding other elements to the breadboard or playing around with the code further. 
+
+Speculations:
+
+Since this system has a timing element and can publish things to the cloud, I think it would be interesting to get some wearable sensors (e.g. sweat sensor) and see if it can talk to the Photon via the cloud. The Photon could run some code that uses machine learning to analyze my exercise and activity patterns. I want to look into how sensors can talk to the Photon in real time if that's even possible, or if data has to be collected async and then fed into the Photon.
+
+
 
 # Week 4 #
 
