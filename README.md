@@ -32,20 +32,29 @@ Reflections:
 I tried changing a few variables in the provided files, mainly the timing for the LED blinking and some of the log statements. 
 
 https://github.com/user-attachments/assets/1c6235a0-b5f7-4c6b-99c6-cdfc157e3c7e
+
 Description: Provided periodicity timing of 3 seconds
 
 https://github.com/user-attachments/assets/ddfffd97-8bda-4f1d-87f2-9a397ce49491
+
 Description: Changing the periodicity timing to 300ms to blink more rapidly
 
 https://github.com/user-attachments/assets/deb610e1-e13c-4baf-a8a1-f878948cd53d
 
 Description: changing the print statements to say "Hi roopa" when publishing to the cloud.
 
-I don't have much knowledge on circuits, so it was hard for me to think about adding other elements to the breadboard or playing around with the code further. 
+I don't have much knowledge on circuits, so it was hard for me to think about adding other elements to the breadboard and how I would do that other than pattern-matching what was already provided. I felt that the code in the introductory tutorials was fairly basic, so I didn't think there was much to change other than periodicity intervals or print statements. 
 
 Speculations:
 
 Since this system has a timing element and can publish things to the cloud, I think it would be interesting to get some wearable sensors (e.g. sweat sensor) and see if it can talk to the Photon via the cloud. The Photon could run some code that uses machine learning to analyze my exercise and activity patterns. I want to look into how sensors can talk to the Photon in real time if that's even possible, or if data has to be collected async and then fed into the Photon.
+
+In terms of ecosystems missing from my daily life, I'm missing ecosystems that analyze my daily habits and patterns OTHER than my physical activity. For example, how often do I miss a certain bus in the morning? It feels like I don't miss it that much, but the data will probably tell me otherwise. How often do I complete my homework for this class ahead of the deadline? I think the Photon will lend itself well to analyzing patterns, and this is something I want to explore.
+
+
+Part 2:
+
+
 
 
 
