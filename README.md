@@ -27,10 +27,6 @@ I experimented with the provided files for interacting with the Photon 2. I foll
 
 Though the diagram has only one LED, I was able to add another by pattern matching it how the first one was constructed.
 
-Reflections:
-
-I tried changing a few variables in the provided files, mainly the timing for the LED blinking and some of the log statements. 
-
 https://github.com/user-attachments/assets/1c6235a0-b5f7-4c6b-99c6-cdfc157e3c7e
 
 Description: Provided periodicity timing of 3 seconds
@@ -43,7 +39,9 @@ https://github.com/user-attachments/assets/deb610e1-e13c-4baf-a8a1-f878948cd53d
 
 Description: changing the print statements to say "Hi roopa" when publishing to the cloud.
 
-I don't have much knowledge on circuits, so it was hard for me to think about adding other elements to the breadboard and how I would do that other than pattern-matching what was already provided. I felt that the code in the introductory tutorials was fairly basic, so I didn't think there was much to change other than periodicity intervals or print statements. 
+Reflections:
+
+I tried changing a few variables in the provided files, mainly the timing for the LED blinking and some of the log statements. I don't have much knowledge on circuits, so it was hard for me to think about adding other elements to the breadboard and how I would do that other than pattern-matching what was already provided. I felt that the code in the introductory tutorials was fairly basic, so I didn't think there was much to change or experiment with other than periodicity intervals or print statements. 
 
 Speculations:
 
