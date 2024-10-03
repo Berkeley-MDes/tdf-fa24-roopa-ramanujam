@@ -39,19 +39,68 @@ https://github.com/user-attachments/assets/deb610e1-e13c-4baf-a8a1-f878948cd53d
 
 Description: changing the print statements to say "Hi roopa" when publishing to the cloud.
 
+
+Part 2:
+
+Tutorial 1: FSR -> LED color
+
+https://github.com/user-attachments/assets/8b5ee92f-ded4-4ac6-8797-76ca92dcfe52
+Description: FSR connected to the RGB LED
+
+I was able to do this tutorial without issues. I thought the diagram was clear on the connections and it was cool to see how the LED color changed based on how forcefully I pressed the sensor.
+
+
+Tutorial 2: Button Send on change
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/fd271672-7092-4d20-87b9-33ec95a4ecfd">
+
+Description: Circuit that was not working
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/bed67004-4eaf-4526-a918-8c945acb9bef">
+
+Description: Fixed circuit
+
+This was not working initially. However, I realized I didn't connect the 3.3 volt connection to the button correctly. Once I fixed it, this worked and I was able to see my button_events in the cloud.
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/6d1589ce-72cb-4390-b0b6-3985a6aaa71c">
+
+Description: button_events published to the cloud on press
+
+Tutorial 3: Publish and subscribe
+
+I was able to successfully publish my events to the cloud, and subscribe to my own cloud events in my local environment. 
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/bf50607c-03ee-416e-908e-de4454628a6c">
+
+Description: Circuit for publish and subscribe
+
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/7c359623-5d06-4a81-a1be-3a4f522a8273">
+
+Description: Seeing published photoLed events from my Photon in the cloud
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/893534c6-2659-43e1-b0d7-dda070a18e3a">
+
+Description: Seeing published photoLed events from Hanna's Photon in the cloud
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/0cc3bf1c-1906-4af3-804b-7af0711ff039">
+
+Description: Seeing published photoLed events from Hanna's Photon in my local serial monitor
+
+I ran into issues with subscribing to Hanna's Photon initially but was able to figure it out eventually (some code snippets were incorrect).
+
+
 Reflections:
 
-I tried changing a few variables in the provided files, mainly the timing for the LED blinking and some of the log statements. I don't have much knowledge on circuits, so it was hard for me to think about adding other elements to the breadboard and how I would do that other than pattern-matching what was already provided. I felt that the code in the introductory tutorials was fairly basic, so I didn't think there was much to change or experiment with other than periodicity intervals or print statements. 
+I tried changing a few variables in the provided code files, mainly the timing for the LED blinking and some of the log statements. I don't have much knowledge on circuits, so it was hard for me to think about adding other elements to the breadboard and how I would do that other than pattern-matching what was already provided. I felt that the code in the introductory tutorials was fairly basic, so I didn't think there was much to change or experiment with other than periodicity intervals or print statements. 
+
+In the microcontroller tutorials specifically, I didn't try to experiment with changing the circuits because I don't know much about circuits yet. Over the weekend, I think I'll work on trying to create more complex circuits that are a combination of the tutorials I've already done.
 
 Speculations:
 
 Since this system has a timing element and can publish things to the cloud, I think it would be interesting to get some wearable sensors (e.g. sweat sensor) and see if it can talk to the Photon via the cloud. The Photon could run some code that uses machine learning to analyze my exercise and activity patterns. I want to look into how sensors can talk to the Photon in real time if that's even possible, or if data has to be collected async and then fed into the Photon.
 
 In terms of ecosystems missing from my daily life, I'm missing ecosystems that analyze my daily habits and patterns OTHER than my physical activity. For example, how often do I miss a certain bus in the morning? It feels like I don't miss it that much, but the data will probably tell me otherwise. How often do I complete my homework for this class ahead of the deadline? I think the Photon will lend itself well to analyzing patterns, and this is something I want to explore.
-
-
-Part 2:
-
 
 
 
