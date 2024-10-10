@@ -53,6 +53,17 @@ Description: A quick sketch by Sylvie of our project proposal.
 
 Over the weekend, I will experiment more with the sensors we plan to use in our project.
 
+Reflections:
+
+I didn't have enough time this week to engage with the sensors and hardware as much as I wanted to. If I had more time, I would have completed the accel analysis and have tried to experiment more with the noise sensor since we'll use it in our project.
+
+Speculations:
+
+While I experimented with the gesture and proximity sensor, I was curious about the difference between polling and interrupts, and whether interrupts would truly be more efficient than polling for the scale of our projects. I think that polling would be fine for the scope of our projects, but interrupts is probably better to learn for good practice.
+
+
+
+
 
 
 
