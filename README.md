@@ -3,6 +3,8 @@
 
 Hi! I'm an MDes student at Berkeley, learning how to make cool things and keeping track of my progress here!
 
+[Week 6](README.md#week-6)
+
 [Week 5](README.md#week-5)
 
 [Week 4](README.md#week-4)
@@ -16,6 +18,43 @@ Hi! I'm an MDes student at Berkeley, learning how to make cool things and keepin
 
 
 ---
+
+# Week 6 #
+
+This week, I experimented with the Stemma QT Modules, or as much as I could anyway.
+
+First, I soldered the board to the pins so that we could attach the Photon to it.
+
+(insert pic)
+
+Then, I opened the given Stemma files and started experimenting with the gesture and proximity sensors specifically.
+
+<img width="485" alt="image" src="https://github.com/user-attachments/assets/45cd1a56-6f76-4efe-8349-9f0ac3ea0edc">
+
+Description: the gesture/proximity sensor attached to the Stemma board.
+
+I kept running into issues with my VSCode environment where the process of flashing was timing out. 
+
+I started out with reading the proximity sensor, since that required no code changes. Then, I wanted to test the functionality of the gesture sensing. I altered the code slightly to use polling, rather than interrupts.
+
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/3e5b9a0a-0533-4baf-99fd-9ab168ea66d0">
+
+
+Description: the readings for the gesture and proximity sensor outputted in the code.
+
+I didn't get a chance to experiment with the LED yet, since I was running into so many issues in VS Code and other assignments.
+
+
+For the second part of the week, I focused on finding a team, deciding on a project topic, and filling out the proposal. We formed a team based on interdisciplinary skills where we could learn from each other. We will be creating a productivity tool that is a physical representation of the Pomodoro technique.
+
+<img width="467" alt="image" src="https://github.com/user-attachments/assets/3705897a-64d5-4396-8b88-2d4c7846a8c6">
+
+Description: A quick sketch by Sylvie of our project proposal.
+
+Over the weekend, I will experiment more with the sensors we plan to use in our project.
+
+
+
 
 # Week 5 #
 
