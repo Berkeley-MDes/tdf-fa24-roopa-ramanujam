@@ -3,9 +3,9 @@
 
 Hi! I'm an MDes student at Berkeley, learning how to make cool things and keeping track of my progress here!
 
-[Week 8](README.md#week-6)
+[Week 8](README.md#week-8)
 
-[Week 7](README.md#week-6)
+[Week 7](README.md#week-7)
 
 [Week 6](README.md#week-6)
 
