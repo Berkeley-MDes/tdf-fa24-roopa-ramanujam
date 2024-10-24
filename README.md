@@ -3,6 +3,10 @@
 
 Hi! I'm an MDes student at Berkeley, learning how to make cool things and keeping track of my progress here!
 
+[Week 8](README.md#week-6)
+
+[Week 7](README.md#week-6)
+
 [Week 6](README.md#week-6)
 
 [Week 5](README.md#week-5)
@@ -18,6 +22,22 @@ Hi! I'm an MDes student at Berkeley, learning how to make cool things and keepin
 
 
 ---
+
+# Week 8 #
+
+Working to get the components talking to each other in code.
+
+Putting together the hardware and fabrication parts.
+
+
+
+# Week 7 #
+
+Experimentations with Photons and inputs and outputs.
+
+Troubleshooting Photon connectivity
+
+Wiring up the hardware for our project (2 components)
 
 # Week 6 #
 
