@@ -27,6 +27,9 @@ Hi! I'm an MDes student at Berkeley, learning how to make cool things and keepin
 
 # Week 9 #
 
+<img width="1567" alt="image" src="https://github.com/user-attachments/assets/cadc9caf-cc1f-4cb1-98bf-7f5f763565af">
+
+
 
 # Week 8 #
 
@@ -40,9 +43,31 @@ Putting together the hardware and fabrication parts.
 
 Experimentations with Photons and inputs and outputs.
 
+![IMG_2627](https://github.com/user-attachments/assets/e118ef04-5db5-4308-bd69-c234fdafe0e8)
+
+![IMG_2643](https://github.com/user-attachments/assets/c7d51287-0b81-44f9-ac09-f95590cf69ce)
+
 Troubleshooting Photon connectivity
 
+I had to spend a lot of time troubleshooting some issues with the Photon internet connection to the Berkeley IoT network and not being able to flash code to one of the Photons. I ended up resolving this with Jeff's help and by observing some of the behavior of the Berkeley IoT network.
+
 Wiring up the hardware for our project (2 components)
+
+Plant:
+![IMG_2655](https://github.com/user-attachments/assets/bd1bf756-2438-4cf9-a669-b4ca584aae10)
+
+
+Wearable:
+
+![IMG_2653](https://github.com/user-attachments/assets/068a733a-8a6d-4319-ac18-44c5c32edbe2)
+
+
+Reflections:
+
+Sometimes hardware can be wired up correctly and functioning totally correctly, but the system doesn't work due to factors outside of my control (Berkeley IoT network). 
+
+Speculations:
+I noticed that there was no way to test out hardware components wired up without code. I wonder if this is something that ChatGPT could help more with than me just writing code.
 
 # Week 6 #
 
@@ -85,10 +110,6 @@ I didn't have enough time this week to engage with the sensors and hardware as m
 Speculations:
 
 While I experimented with the gesture and proximity sensor, I was curious about the difference between polling and interrupts, and whether interrupts would truly be more efficient than polling for the scale of our projects. I think that polling would be fine for the scope of our projects, but interrupts is probably better to learn for good practice.
-
-
-
-
 
 
 
