@@ -29,15 +29,33 @@ Hi! I'm an MDes student at Berkeley, learning how to make cool things and keepin
 
 <img width="1567" alt="image" src="https://github.com/user-attachments/assets/cadc9caf-cc1f-4cb1-98bf-7f5f763565af">
 
+Reflections:
+
+Speculations:
+
+
 
 
 # Week 8 #
 
+I sspent most of this week helping with the code for the actual logic of our digital ecosystem. 
+
 Working to get the components talking to each other in code.
 
+We had some trouble getting the timing function of our Pomodoro functionality to work as expected. Because the code executes continuously in a loop, we had issues figuring out where to start the timer. However, we had some help from ChatGPT debugging this. 
+
+
 Putting together the hardware and fabrication parts.
+Sylvie and I also spent time figuring out how the fabricated parts would fit with the hardware. Ultimately, taping down wires and trying to get the spread of the hardware to be as minimal as possible helped us the most.
+
+Reflections: 
+
+The way we split up our project was maybe not ideal...since ours was in almost sequential steps, it was hard to work on parts of the project individually. Code/firmware goes hand in hand with hardware, so maybe it would've been better to each take an individual component of our system and do both parts for it.
 
 
+Speculations:
+
+I speculate that AI will be used to create more integrated testing systems for hardware and code. It may even eventually replace software engineers entirely, and require prompt engineers to work with it to produce ideal systems.
 
 # Week 7 #
 
@@ -56,18 +74,21 @@ Wiring up the hardware for our project (2 components)
 Plant:
 ![IMG_2655](https://github.com/user-attachments/assets/bd1bf756-2438-4cf9-a669-b4ca584aae10)
 
+Wiring up the plant required testing individual components. I started with the button, then added the OLED screen, then one servo at a time. This was a generally successful strategy.
+
 
 Wearable:
 
 ![IMG_2653](https://github.com/user-attachments/assets/068a733a-8a6d-4319-ac18-44c5c32edbe2)
 
+Wiring up the wearable was easier than the plant. The Stemma QT board made it easy to connect the accel/gryo, amd the loudness sensor only had three pins.
 
 Reflections:
 
-Sometimes hardware can be wired up correctly and functioning totally correctly, but the system doesn't work due to factors outside of my control (Berkeley IoT network). 
+Sometimes hardware can be wired up correctly and functioning totally correctly, but the system doesn't work due to factors outside of my control (Berkeley IoT network). In these cases, it's better to just wait for a little bit and then try again. Troubleshooting the Photon was probably the most frustrating part of the process, because there was no easy fix to the issue. 
 
 Speculations:
-I noticed that there was no way to test out hardware components wired up without code. I wonder if this is something that ChatGPT could help more with than me just writing code.
+I noticed that there was no way to test out hardware components wired up without code. I wonder if this is something that ChatGPT could help more with as opposed to wiring up an entire system and then writing code, only to discover it doesn't work. I wonder if there's a tool where we could test our circuits virtually. 
 
 # Week 6 #
 
