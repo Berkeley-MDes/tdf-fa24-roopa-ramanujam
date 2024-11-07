@@ -70,7 +70,7 @@ I speculate that AI will be used to create more integrated testing systems for h
 
 # Week 7 #
 
-Experimentations with Photons and inputs and outputs.
+Experimentations with Photons and inputs and outputs for our digital ecosystem.
 
 ![IMG_2627](https://github.com/user-attachments/assets/e118ef04-5db5-4308-bd69-c234fdafe0e8)
 
@@ -290,7 +290,7 @@ Proposed revision (or something similar to this):
 
 # Week 2 #
 
-Part 1: Playing around with Rhino/Grasshopper
+Part 1: Playing around with Rhino/Grasshopper for computational design
 
 Attempting to break down the example cell phone stand Rhino/Grasshopper files into a more digestible format. The FigJam flowchart shows all of the elements that go into making the cell phone stand. The yellow triangles represent adjustable parameters (important!)
 
