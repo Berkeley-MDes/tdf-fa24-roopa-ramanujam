@@ -29,16 +29,22 @@ Hi! I'm an MDes student at Berkeley, learning how to make cool things and keepin
 
 <img width="1567" alt="image" src="https://github.com/user-attachments/assets/cadc9caf-cc1f-4cb1-98bf-7f5f763565af">
 
+This week, I began experimenting with designing around LLMs. I went through some of the initial basic experiments of using a simple GPT, then adding instructions, then adding RAG, and finally adding context variables. I found that adding more and more context through instructions, RAG, and context variables made the responses to the prompts more specific, but not always correct. I also found that sometimes the answers would be completely incorrect despite the RAG knowledge base having the right answers. Perhaps this requires better engineering around the prompt. 
+
 Reflections:
+
+I think that designing around LLMs is not as easy as it seems. We have to know how to engineer the system to produce the outputs that make the most sense, and we have to know what inputs work best for producing certain responses.
+
 
 Speculations:
 
+I think that designers need to know the basics of how LLMs work in order to design around them. For example, they should know about variables such as temperature and chunks, and how those affect the system design as well as the outputs. They should also know the basics of AI/ML in the sense of how data factors into them and how they are atrained. I also think that AI and LLMs can be used to help design themselves; for example, by finding the optimal chunk size or number of chunks for producing certain responses.
 
 
 
 # Week 8 #
 
-I sspent most of this week helping with the code for the actual logic of our digital ecosystem. 
+I spent most of this week helping with the code for the actual logic of our digital ecosystem. 
 
 Working to get the components talking to each other in code.
 
@@ -46,11 +52,16 @@ We had some trouble getting the timing function of our Pomodoro functionality to
 
 
 Putting together the hardware and fabrication parts.
-Sylvie and I also spent time figuring out how the fabricated parts would fit with the hardware. Ultimately, taping down wires and trying to get the spread of the hardware to be as minimal as possible helped us the most.
+Sylvie and I also spent time figuring out how the fabricated parts would fit with the hardware. Ultimately, taping down wires and trying to get the spread of the hardware to be as minimal as possible helped us the most. The collaboration with Sylvie on the fabrication aspect also informed the aesthetics and size of our plant product. In the 3d modeling, Sylvie had to account for the sizes of the finished hardware components, as well as the orientation of the servo motors. I know this informed several iterations of 3d printing the plant pot, as well as how big to crochet the cactus.
+
 
 Reflections: 
 
 The way we split up our project was maybe not ideal...since ours was in almost sequential steps, it was hard to work on parts of the project individually. Code/firmware goes hand in hand with hardware, so maybe it would've been better to each take an individual component of our system and do both parts for it.
+
+I’ve never had to work with code execution that loops continuously, and that changed how our code was structured. This differs a lot from traditional software engineering, because software code is more abstracted from hardware (therefore more flexible), while firmware is more low-level and must adhere to a certain timing. Grasping these differences was challenging for me and stretched my limits as a coder.
+
+Deciding whether to wire outputs in series vs. parallel requires considering how much voltage each component needs to function properly and how much it will get. For our plant system, I realized that each output component needed at least 3.3V, so it meant designing the circuits to have the outputs in series. This impacted the way I constructed and tested the hardware components. It also meant that I had to try two different power sources (3.3V Photon pin and finally the 5V USB pin) in order to get successful power to each component.
 
 
 Speculations:
@@ -74,6 +85,10 @@ Wiring up the hardware for our project (2 components)
 Plant:
 ![IMG_2655](https://github.com/user-attachments/assets/bd1bf756-2438-4cf9-a669-b4ca584aae10)
 
+Since I knew nothing about hardware prior to this project, it was an Axolotl-level challenge for me to wire up the plant Photon, a system that had multiple inputs and outputs. I had to make sure that I was completing the circuit and not shorting anything. I also spent a lot of time going through the introductory tutorials on the inputs and outputs we used in our system to understand how the components of each circuit worked together. 
+
+I was entirely new to writing code for firmware. While wiring up the hardware, I wrote test code to ensure that the inputs and outputs were working properly. Initially, I faced many challenges with getting firmware even onto the Photon, since my Photon seemed to have been damaged or reset. I spent many hours in the first few days of the project debugging the process of compiling/flashing firmware itself, with help from Jeff and other classmates.
+
 Wiring up the plant required testing individual components. I started with the button, then added the OLED screen, then one servo at a time. This was a generally successful strategy.
 
 
@@ -81,11 +96,14 @@ Wearable:
 
 ![IMG_2653](https://github.com/user-attachments/assets/068a733a-8a6d-4319-ac18-44c5c32edbe2)
 
-Wiring up the wearable was easier than the plant. The Stemma QT board made it easy to connect the accel/gryo, amd the loudness sensor only had three pins.
+Wiring up the wearable was less challenging than wiring up the plant, largely thanks to the Stemma QT board. However, calibrating the sensors, especially the accel/gyro, was difficult. The goal of the accel/gyro board was to help our wearable Photon detect when the user is “stationary” vs “moving.” I spent a lot of time moving with the accel/gyro board to experiment with thresholds and determine the relevant axes. Ultimately I utilized ChatGPT in writing some calibration code that helped differentiate “stationary” vs “moving” easily.  
 
 Reflections:
 
 Sometimes hardware can be wired up correctly and functioning totally correctly, but the system doesn't work due to factors outside of my control (Berkeley IoT network). In these cases, it's better to just wait for a little bit and then try again. Troubleshooting the Photon was probably the most frustrating part of the process, because there was no easy fix to the issue. 
+
+Adding one component at a time and then testing it via code ensured repeatability and reliability of the entire system. Testing out different combinations of components also allowed me to determine if there were any problematic components of the system (there ended up being a few cables that needed to be swapped out).
+
 
 Speculations:
 I noticed that there was no way to test out hardware components wired up without code. I wonder if this is something that ChatGPT could help more with as opposed to wiring up an entire system and then writing code, only to discover it doesn't work. I wonder if there's a tool where we could test our circuits virtually. 
