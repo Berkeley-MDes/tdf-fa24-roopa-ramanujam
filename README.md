@@ -3,6 +3,8 @@
 
 Hi! I'm an MDes student at Berkeley, learning how to make cool things and keeping track of my progress here!
 
+[Week 11](README.md#week-11)
+
 [Week 10](README.md#week-10)
 
 [Week 9](README.md#week-9)
@@ -26,6 +28,8 @@ Hi! I'm an MDes student at Berkeley, learning how to make cool things and keepin
 
 
 ---
+
+# Week 11 #
 
 # Week 10 #
 
