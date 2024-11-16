@@ -31,7 +31,30 @@ Hi! I'm an MDes student at Berkeley, learning how to make cool things and keepin
 
 # Week 11 #
 
+This week was focused on writing my Project 3 report. I also started thinking about what I want to do for the final project. I like the idea of doing an art installation (I've been exploring new media art this semester), but I also like the idea of doing something that's more centered around healthcare. I plan to sketch out some ideas this weekend and see what I land on.
+
+Reflections:
+
+It actually took longer to write the Project 3 report than to conduct the ZeroWidth experiments. 
+
+Speculations:
+
+If I end up doing an art installation-type project, I want it to be highly interactive and even playful. I feel particularly inspired by the work of Neil Mendoza, who has created many projects designed for children specifically that are still high-technology and use microcontrollers. I'm also inspired by the work of Danny Rozin who created interactive "grids" that are responsive to people's movements. I think I want the final project to show something external about people that's normally internal.
+
+![image](https://github.com/user-attachments/assets/ecf0fc3a-b7ce-423d-bbc9-9dde04e537cf)
+Neil Mendoza's interactive paintings TUIs.
+
+
 # Week 10 #
+
+This week, I focused on my ZeroWidth experiments for Project 3. I finished up the 4 experiments that we were given by the instructors, and 
+
+
+Reflections:
+
+
+Speculations:
+
 
 # Week 9 #
 
@@ -41,12 +64,14 @@ This week, I began experimenting with designing around LLMs. I went through some
 
 Reflections:
 
-I think that designing around LLMs is not as easy as it seems. We have to know how to engineer the system to produce the outputs that make the most sense, and we have to know what inputs work best for producing certain responses.
+I think that designing around LLMs is not as easy as it seems. We have to know how to engineer the system to produce the outputs that make the most sense, and we have to know what inputs work best for producing certain responses. It's also hard to come up with a good prompt, this is something I'm finding out through my experimentations!
+![prompt engineering](https://github.com/user-attachments/assets/162290f7-9f00-4422-80be-800c5b8d8b1d)
 
 
 Speculations:
 
 I think that designers need to know the basics of how LLMs work in order to design around them. For example, they should know about variables such as temperature and chunks, and how those affect the system design as well as the outputs. They should also know the basics of AI/ML in the sense of how data factors into them and how they are atrained. I also think that AI and LLMs can be used to help design themselves; for example, by finding the optimal chunk size or number of chunks for producing certain responses.
+![llm test](https://github.com/user-attachments/assets/c97125ba-3483-4e25-8fe5-3773e1ba6f91)
 
 
 
