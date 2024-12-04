@@ -3,6 +3,8 @@
 
 Hi! I'm an MDes student at Berkeley, learning how to make cool things and keeping track of my progress here!
 
+[Week 12](README.md#week-12)
+
 [Week 11](README.md#week-11)
 
 [Week 10](README.md#week-10)
@@ -29,6 +31,22 @@ Hi! I'm an MDes student at Berkeley, learning how to make cool things and keepin
 
 ---
 
+# Week 13 #
+
+
+
+# Week 12 #
+
+This week was focused on getting started with Project 4. Our project will be an interactive grid of mirror tiles that are responsive to the viewer's movement. I started thinking about the fabrication aspect of it, and tried out several iterations of individual tiles in order to actuate a tilting motion correctly.
+
+Reflections:
+
+It took me about 3-4 iterations of tile shape and hinge design to understand the mechanics of a tilting motion. I also had to practice some sketching skills to brainstorm my thoughts. I think that sketching and visual communication is still a weak point for me, and I will continue to work on it. I also had to make design decisions in terms of the hinge component of the tile, considering materials and what types of hinges would be most conducive to 3D printing. 
+
+Speculations:
+
+I think Adam (AI to CAD tool) could have been helpful with this task, and I wish I had thought to use it more in advance. But I also think it was a good learning process for me to go through so many iterations of tile design, both via sketching and in modeling in Fusion and ultimately printing versions, in order to better learn the technologies myself.
+
 # Week 11 #
 
 This week was focused on writing my Project 3 report. I also started thinking about what I want to do for the final project. I like the idea of doing an art installation (I've been exploring new media art this semester), but I also like the idea of doing something that's more centered around healthcare. I plan to sketch out some ideas this weekend and see what I land on.
@@ -42,19 +60,22 @@ Speculations:
 If I end up doing an art installation-type project, I want it to be highly interactive and even playful. I feel particularly inspired by the work of Neil Mendoza, who has created many projects designed for children specifically that are still high-technology and use microcontrollers. I'm also inspired by the work of Danny Rozin who created interactive "grids" that are responsive to people's movements. I think I want the final project to show something external about people that's normally internal.
 
 ![image](https://github.com/user-attachments/assets/ecf0fc3a-b7ce-423d-bbc9-9dde04e537cf)
-Neil Mendoza's interactive paintings TUIs.
+
+Neil Mendoza's interactive paintings which are examples of TUIs.
 
 
 # Week 10 #
 
-This week, I focused on my ZeroWidth experiments for Project 3. I finished up the 4 experiments that we were given by the instructors, and 
+This week, I focused on my ZeroWidth experiments for Project 3. I finished up the 4 experiments that we were given by the instructors, and created one of my own. I was inspired by my MDes application (application season is right now!) and wanted to see if I could create a bot that would be able to reflect a past version of me and be able to answer questions about myself in the present. 
 
 
 Reflections:
 
+I had a hard time getting the instructor-given experiments to behave as intended to answer questions correctly. This was probably intentional :) I found that my own experiment performed the best in terms of acting and answering questions as a mini-me.
 
 Speculations:
 
+I think that LLMs and tools like ChatGPT can be used as personal reflection tools, such as for comparing past versions of yourself to your current self, or even as a manifestation tool. 
 
 # Week 9 #
 
