@@ -3,6 +3,10 @@
 
 Hi! I'm an MDes student at Berkeley, learning how to make cool things and keeping track of my progress here!
 
+[Week 14](README.md#week-14)
+
+[Week 13](README.md#week-13)
+
 [Week 12](README.md#week-12)
 
 [Week 11](README.md#week-11)
@@ -31,8 +35,23 @@ Hi! I'm an MDes student at Berkeley, learning how to make cool things and keepin
 
 ---
 
+# Week 14 #
+
+This week, the Anti-Mirror group is focused on putting together the larger aspects of our project, now that the fabrication and production of the smaller elements is done (tiles, arms, servo case). 
+
+Reflections:
+
+Speculations: 
+
 # Week 13 #
 
+Thanksgiving week~
+
+Reflections:
+Printing so many parts for our interactive tile grid took a lot of time. I made a deliberate design decision to 3d model and print most of the elements because I thought they would look better when exposed through the design, but I think it would have been easier to use other materials such as rubber tubing and small skewers as the hinge points for movement.
+
+Speculations:
+It would be great to have some sort of AI assistant to watch over my 3D prints to make sure the first layer prints successfully.
 
 
 # Week 12 #
