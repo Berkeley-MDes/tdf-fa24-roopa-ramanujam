@@ -41,11 +41,22 @@ This week, the Anti-Mirror group is focused on putting together the larger aspec
 
 Reflections:
 
+This project was able to break apart into components in the early stages, but now needs to be done sequentially. I think we're moving at a good pace to be able to do that.
+
 Speculations: 
+
+I wish that I had learned assemblies in CAD so that I could help with fabricating larger elements of our project. 
 
 # Week 13 #
 
 Thanksgiving week~
+
+<img width="544" alt="image" src="https://github.com/user-attachments/assets/b314aaef-b869-48af-ae3e-cac1482e3609">
+
+
+
+Image description: an assembled movable tile + servo case.
+
 
 Reflections:
 Printing so many parts for our interactive tile grid took a lot of time. I made a deliberate design decision to 3d model and print most of the elements because I thought they would look better when exposed through the design, but I think it would have been easier to use other materials such as rubber tubing and small skewers as the hinge points for movement.
@@ -61,6 +72,8 @@ This week was focused on getting started with Project 4. Our project will be an 
 Reflections:
 
 It took me about 3-4 iterations of tile shape and hinge design to understand the mechanics of a tilting motion. I also had to practice some sketching skills to brainstorm my thoughts. I think that sketching and visual communication is still a weak point for me, and I will continue to work on it. I also had to make design decisions in terms of the hinge component of the tile, considering materials and what types of hinges would be most conducive to 3D printing. 
+
+https://github.com/user-attachments/assets/6b3873d9-bf43-45d6-8238-f64eb7f594c3
 
 Speculations:
 
