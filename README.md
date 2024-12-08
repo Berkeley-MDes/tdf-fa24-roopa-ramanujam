@@ -63,13 +63,19 @@ Image description: the Fusion assembly Kaden made
 
 Thanksgiving week~
 
+Reflections:
+Printing so many parts for our interactive tile grid took a lot of time. I made a deliberate design decision to 3d model and print most of the elements because I thought they would look better when exposed through the design, but I think it would have been easier to use other materials such as rubber tubing and small skewers as the hinge points for movement. However, I think because I had the time to print everything, it looks less "craft-y" and more like a finished product.
+
+
+<img width="544" alt="image" src="https://github.com/user-attachments/assets/745ac020-b3f6-4f38-8938-f47772c2ae43">
+
+Image description: Exploratory sketch of using rubber tubing + wooden skewers as hinges
+
+
 <img width="544" alt="image" src="https://github.com/user-attachments/assets/b314aaef-b869-48af-ae3e-cac1482e3609">
 
 Image description: an assembled movable tile + servo case.
 
-
-Reflections:
-Printing so many parts for our interactive tile grid took a lot of time. I made a deliberate design decision to 3d model and print most of the elements because I thought they would look better when exposed through the design, but I think it would have been easier to use other materials such as rubber tubing and small skewers as the hinge points for movement. However, I think because I had the time to print everything, it looks less "craft-y" and more like a finished product.
 
 Speculations:
 It would be great to have some sort of AI assistant to watch over my 3D prints to make sure the first layer prints successfully. Maybe this is something the Tesla robot or other humanistic AIs could help with in the future - not just menial day-to-day tasks, but with repetitive tasks in the workforce as well.
@@ -114,6 +120,10 @@ Speculations:
 
 I think Adam (AI to CAD tool) could have been helpful with this task, and I wish I had thought to use it more in advance. But I also think it was a good learning process for me to go through so many iterations of tile design, both via sketching and in modeling in Fusion and ultimately printing versions, in order to better learn the technologies myself.
 
+Initial sketch I made:
+
+<img width="544" alt="image" src="https://github.com/user-attachments/assets/d95ba1ea-12c2-4030-9bca-9dca527ac05f">
+
 
 # Week 11 #
 
@@ -123,7 +133,12 @@ Reflections:
 
 It actually took longer to write the Project 3 report than to conduct the ZeroWidth experiments. This is kind of a commentary on how much we time and effort we are expected to spend documenting our work versus actually experimenting through our work. 
 
-On project 4, I'm excited to potentially bring together high-tech with artwork and observe elements of HCI as well.
+On project 4, I'm excited to potentially bring together high-tech with artwork and observe elements of HCI as well. I spent some time thinking about what the interaction might look like, something highly responsive:
+
+<img width="544" alt="image" src="https://github.com/user-attachments/assets/75b98b35-88be-4edf-9547-1d3c11019b7f">
+
+Image description: AI-generated image of a responsive tile art installation.
+
 
 Speculations:
 
@@ -141,11 +156,19 @@ This week, I focused on my ZeroWidth experiments for Project 3. I finished up th
 
 Reflections:
 
-I had a hard time getting the instructor-given experiments to behave as intended to answer questions correctly. This was probably intentional :) I found that my own experiment performed the best in terms of acting and answering questions as a mini-me. I also thought that 
+I had a hard time getting the instructor-given experiments to behave as intended to answer questions correctly. This was probably intentional :) I found that my own experiment performed the best in terms of acting and answering questions as a mini-me. I also thought that the bot was a little unpredictable, which made me a little nervous about building chatbots in general.
+
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/f80266dd-7625-464b-b880-2da93105b37a">
+
+Image description: my final agent workflow
 
 Speculations:
 
-I think that LLMs and tools like ChatGPT can be used as personal reflection tools, such as for comparing past versions of yourself to your current self, or even as a manifestation tool. 
+I think that LLMs and tools like ChatGPT can be used as personal reflection tools, such as for comparing past versions of yourself to your current self, or even as a manifestation tool. I think it would be really cool to explore them as more spiritual tools.
+
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/70134624-4a9c-4020-967b-f00045a7f5c8">
+
+Image description: AI-generated image of personal reflection
 
 # Week 9 #
 
@@ -171,14 +194,21 @@ I think that designers need to know the basics of how LLMs work in order to desi
 
 I spent most of this week helping with the code for the actual logic of our digital ecosystem. 
 
-Working to get the components talking to each other in code.
+Working to get the components talking to each other in code:
 
-We had some trouble getting the timing function of our Pomodoro functionality to work as expected. Because the code executes continuously in a loop, we had issues figuring out where to start the timer. However, we had some help from ChatGPT debugging this. 
+We had some trouble getting the timing function of our Pomodoro functionality to work as expected. Because the code executes continuously in a loop, we had issues figuring out where to start the timer. However, we had some help from ChatGPT debugging this.
 
+Putting together the hardware and fabrication parts:
 
-Putting together the hardware and fabrication parts.
 Sylvie and I also spent time figuring out how the fabricated parts would fit with the hardware. Ultimately, taping down wires and trying to get the spread of the hardware to be as minimal as possible helped us the most. The collaboration with Sylvie on the fabrication aspect also informed the aesthetics and size of our plant product. In the 3d modeling, Sylvie had to account for the sizes of the finished hardware components, as well as the orientation of the servo motors. I know this informed several iterations of 3d printing the plant pot, as well as how big to crochet the cactus.
 
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/161efa1c-af66-4112-ad53-89fb3e5bb973">
+
+Image description: all of the hardware that needed to be disguised.
+
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/d670519e-4d29-4054-804c-a67ec74c038f">
+
+Image description: the final form of the plant.
 
 Reflections: 
 
@@ -192,6 +222,8 @@ Deciding whether to wire outputs in series vs. parallel requires considering how
 Speculations:
 
 I speculate that AI will be used to create more integrated testing systems for hardware and code. It may even eventually replace software engineers entirely, and require prompt engineers to work with it to produce ideal systems.
+
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/482b8d89-3a18-4751-93f5-0fd8ce317871">
 
 # Week 7 #
 
@@ -209,6 +241,7 @@ I had to spend a lot of time troubleshooting some issues with the Photon interne
 Wiring up the hardware for our project (2 components)
 
 Plant:
+
 <img width="480" alt="image" src="https://github.com/user-attachments/assets/bd1bf756-2438-4cf9-a669-b4ca584aae10">
 
 Since I knew nothing about hardware prior to this project, it was an Axolotl-level challenge for me to wire up the plant Photon, a system that had multiple inputs and outputs. I had to make sure that I was completing the circuit and not shorting anything. I also spent a lot of time going through the introductory tutorials on the inputs and outputs we used in our system to understand how the components of each circuit worked together. 
@@ -220,7 +253,7 @@ Wiring up the plant required testing individual components. I started with the b
 
 Wearable:
 
-![IMG_2653](https://github.com/user-attachments/assets/068a733a-8a6d-4319-ac18-44c5c32edbe2)
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/068a733a-8a6d-4319-ac18-44c5c32edbe2">
 
 Wiring up the wearable was less challenging than wiring up the plant, largely thanks to the Stemma QT board. However, calibrating the sensors, especially the accel/gyro, was difficult. The goal of the accel/gyro board was to help our wearable Photon detect when the user is “stationary” vs “moving.” I spent a lot of time moving with the accel/gyro board to experiment with thresholds and determine the relevant axes. Ultimately I utilized ChatGPT in writing some calibration code that helped differentiate “stationary” vs “moving” easily.  
 
@@ -233,6 +266,9 @@ Adding one component at a time and then testing it via code ensured repeatabilit
 
 Speculations:
 I noticed that there was no way to test out hardware components wired up without code. I wonder if this is something that ChatGPT could help more with as opposed to wiring up an entire system and then writing code, only to discover it doesn't work. I wonder if there's a tool where we could test our circuits virtually. 
+
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/f94f6568-fb59-4140-8527-6a952cb2fc1c">
+
 
 # Week 6 #
 
