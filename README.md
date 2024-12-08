@@ -37,15 +37,27 @@ Hi! I'm an MDes student at Berkeley, learning how to make cool things and keepin
 
 # Week 14 #
 
-This week, the Anti-Mirror group is focused on putting together the larger aspects of our project, now that the fabrication and production of the smaller elements is done (tiles, arms, servo case). 
+This week, the Anti-Mirror group is focused on putting together the larger aspects of our project, now that the fabrication and production of the smaller elements is done (tiles, arms, servo case). We spent the week building our frame, assembling the tiles, and nailing down the interaction part of the project. 
 
 Reflections:
 
-This project was able to break apart into components in the early stages, but now needs to be done sequentially. I think we're moving at a good pace to be able to do that.
+This project was able to break apart into components in the early stages, but now needs to be done sequentially. I think we're moving at a good pace to be able to do that. We are now able to focus on the finer details of the fabrication and aesthetic of the project, such as painting the frames black, and thinking about whether or not we want to show the Arduino and wiring or hide all of the "behind-the-scenes" details.
 
-Speculations: 
+I have been working on programming the interactions of the installation and trying to figure out what the experience should feel like. The original ideas was to have the viewer walk up to the mirror and not be able to see their reflection because the tiles would move in a direction away from the viewer. However, this is hard to achieve with the sensors we have (sensitive PIR sensors that would need to be chained together) and the size of the project (not small but not very large). Instead, I thought that it might be better for us to simplify the interaction to having the viewer be a certain distance from the project and then programming different patterns of the tiles. Since each tile can move individually, we should highlight that functionality with fun patterns. I came to this conclusion after several experiments with the proximity sensor and ultrasonic sensor.
 
-I wish that I had learned assemblies in CAD so that I could help with fabricating larger elements of our project. 
+<img width="544" alt="image" src="https://github.com/user-attachments/assets/2258bd04-2956-4892-8382-38b3a17c156b">
+
+Image description: trying out the proximity and infrared sensors to sense when someone has walked up to the Anti-Mirror
+
+
+Speculations:
+
+I wish that I had learned assemblies in CAD so that I could help with fabricating larger elements of our project. I will try to learn this skill at some point, because I think it's useful to be able to put together entire systems in 3D models to test out how different components work together. This is also something useful to explore in Rhino/Grasshopper with computational design, such as testing out load and weight in assembled systems. This would have been useful for my project 1!
+
+<img width="544" alt="image" src="https://github.com/user-attachments/assets/09af1e35-1cd0-416c-9012-1f3af30de11d">
+
+Image description: the Fusion assembly Kaden made
+
 
 # Week 13 #
 
@@ -53,17 +65,18 @@ Thanksgiving week~
 
 <img width="544" alt="image" src="https://github.com/user-attachments/assets/b314aaef-b869-48af-ae3e-cac1482e3609">
 
-
-
 Image description: an assembled movable tile + servo case.
 
 
 Reflections:
-Printing so many parts for our interactive tile grid took a lot of time. I made a deliberate design decision to 3d model and print most of the elements because I thought they would look better when exposed through the design, but I think it would have been easier to use other materials such as rubber tubing and small skewers as the hinge points for movement.
+Printing so many parts for our interactive tile grid took a lot of time. I made a deliberate design decision to 3d model and print most of the elements because I thought they would look better when exposed through the design, but I think it would have been easier to use other materials such as rubber tubing and small skewers as the hinge points for movement. However, I think because I had the time to print everything, it looks less "craft-y" and more like a finished product.
 
 Speculations:
-It would be great to have some sort of AI assistant to watch over my 3D prints to make sure the first layer prints successfully.
+It would be great to have some sort of AI assistant to watch over my 3D prints to make sure the first layer prints successfully. Maybe this is something the Tesla robot or other humanistic AIs could help with in the future - not just menial day-to-day tasks, but with repetitive tasks in the workforce as well.
 
+<img width="544" alt="image" src="https://github.com/user-attachments/assets/a14022e0-d264-4362-a93b-459ef7bc08b5">
+
+Image description: A "humanoid" robot assistant
 
 # Week 12 #
 
@@ -73,11 +86,34 @@ Reflections:
 
 It took me about 3-4 iterations of tile shape and hinge design to understand the mechanics of a tilting motion. I also had to practice some sketching skills to brainstorm my thoughts. I think that sketching and visual communication is still a weak point for me, and I will continue to work on it. I also had to make design decisions in terms of the hinge component of the tile, considering materials and what types of hinges would be most conducive to 3D printing. 
 
+https://github.com/user-attachments/assets/cf33a300-d4df-40d1-9031-d1cc2104344d
+
+Video description: First try in creating a movable tile (translating motion rather than tilting)
+
+
+https://github.com/user-attachments/assets/35097b89-11c8-4017-88b7-68934a78e50d
+
+Video description: Conceptually envisioning what mechanics are needed to achieve a tilting motion - hinges and an axle in the center
+
+
 https://github.com/user-attachments/assets/6b3873d9-bf43-45d6-8238-f64eb7f594c3
+
+Video description: An experiment in using hinges for the tile tilting motion rather than a translating motion
+
+
+https://github.com/user-attachments/assets/615ce7ea-9a12-41b2-b533-55ad5d1081f7
+
+Video description: Successfully achieving tilting motion with hinges and an axle
+
+<img width="544" alt="image" src="https://github.com/user-attachments/assets/93d086dc-2564-429c-bc32-f59ad7d69c7a">
+
+Image description: The evolution of tile size, hinge placement, and arm sizes
+
 
 Speculations:
 
 I think Adam (AI to CAD tool) could have been helpful with this task, and I wish I had thought to use it more in advance. But I also think it was a good learning process for me to go through so many iterations of tile design, both via sketching and in modeling in Fusion and ultimately printing versions, in order to better learn the technologies myself.
+
 
 # Week 11 #
 
@@ -85,7 +121,9 @@ This week was focused on writing my Project 3 report. I also started thinking ab
 
 Reflections:
 
-It actually took longer to write the Project 3 report than to conduct the ZeroWidth experiments. 
+It actually took longer to write the Project 3 report than to conduct the ZeroWidth experiments. This is kind of a commentary on how much we time and effort we are expected to spend documenting our work versus actually experimenting through our work. 
+
+On project 4, I'm excited to potentially bring together high-tech with artwork and observe elements of HCI as well.
 
 Speculations:
 
@@ -103,7 +141,7 @@ This week, I focused on my ZeroWidth experiments for Project 3. I finished up th
 
 Reflections:
 
-I had a hard time getting the instructor-given experiments to behave as intended to answer questions correctly. This was probably intentional :) I found that my own experiment performed the best in terms of acting and answering questions as a mini-me.
+I had a hard time getting the instructor-given experiments to behave as intended to answer questions correctly. This was probably intentional :) I found that my own experiment performed the best in terms of acting and answering questions as a mini-me. I also thought that 
 
 Speculations:
 
@@ -111,21 +149,22 @@ I think that LLMs and tools like ChatGPT can be used as personal reflection tool
 
 # Week 9 #
 
-<img width="1567" alt="image" src="https://github.com/user-attachments/assets/cadc9caf-cc1f-4cb1-98bf-7f5f763565af">
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/cadc9caf-cc1f-4cb1-98bf-7f5f763565af">
 
 This week, I began experimenting with designing around LLMs. I went through some of the initial basic experiments of using a simple GPT, then adding instructions, then adding RAG, and finally adding context variables. I found that adding more and more context through instructions, RAG, and context variables made the responses to the prompts more specific, but not always correct. I also found that sometimes the answers would be completely incorrect despite the RAG knowledge base having the right answers. Perhaps this requires better engineering around the prompt. 
 
 Reflections:
 
 I think that designing around LLMs is not as easy as it seems. We have to know how to engineer the system to produce the outputs that make the most sense, and we have to know what inputs work best for producing certain responses. It's also hard to come up with a good prompt, this is something I'm finding out through my experimentations!
-![prompt engineering](https://github.com/user-attachments/assets/162290f7-9f00-4422-80be-800c5b8d8b1d)
+
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/162290f7-9f00-4422-80be-800c5b8d8b1d">
 
 
 Speculations:
 
 I think that designers need to know the basics of how LLMs work in order to design around them. For example, they should know about variables such as temperature and chunks, and how those affect the system design as well as the outputs. They should also know the basics of AI/ML in the sense of how data factors into them and how they are atrained. I also think that AI and LLMs can be used to help design themselves; for example, by finding the optimal chunk size or number of chunks for producing certain responses.
-![llm test](https://github.com/user-attachments/assets/c97125ba-3483-4e25-8fe5-3773e1ba6f91)
 
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/c97125ba-3483-4e25-8fe5-3773e1ba6f91">
 
 
 # Week 8 #
@@ -158,9 +197,10 @@ I speculate that AI will be used to create more integrated testing systems for h
 
 Experimentations with Photons and inputs and outputs for our digital ecosystem.
 
-![IMG_2627](https://github.com/user-attachments/assets/e118ef04-5db5-4308-bd69-c234fdafe0e8)
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/e118ef04-5db5-4308-bd69-c234fdafe0e8">
 
-![IMG_2643](https://github.com/user-attachments/assets/c7d51287-0b81-44f9-ac09-f95590cf69ce)
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/c7d51287-0b81-44f9-ac09-f95590cf69ce">
+
 
 Troubleshooting Photon connectivity
 
@@ -169,7 +209,7 @@ I had to spend a lot of time troubleshooting some issues with the Photon interne
 Wiring up the hardware for our project (2 components)
 
 Plant:
-![IMG_2655](https://github.com/user-attachments/assets/bd1bf756-2438-4cf9-a669-b4ca584aae10)
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/bd1bf756-2438-4cf9-a669-b4ca584aae10">
 
 Since I knew nothing about hardware prior to this project, it was an Axolotl-level challenge for me to wire up the plant Photon, a system that had multiple inputs and outputs. I had to make sure that I was completing the circuit and not shorting anything. I also spent a lot of time going through the introductory tutorials on the inputs and outputs we used in our system to understand how the components of each circuit worked together. 
 
@@ -235,8 +275,6 @@ I didn't have enough time this week to engage with the sensors and hardware as m
 Speculations:
 
 While I experimented with the gesture and proximity sensor, I was curious about the difference between polling and interrupts, and whether interrupts would truly be more efficient than polling for the scale of our projects. I think that polling would be fine for the scope of our projects, but interrupts is probably better to learn for good practice.
-
-
 
 # Week 5 #
 
